@@ -2,10 +2,7 @@ body {
     background-color: #000000;
     color: #ffffff;
 }
-.mi-caja {
-    background-color: #000;
-    color: #fff;
-}
+
 .cabecera-principal {
     /* 1. Capa oscura de contraste + Enlace directo al archivo GIF */
     background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url('https://media1.tenor.com/m/KBe_nw4IL2QAAAAC/matrix-code.gif'); 
@@ -18,17 +15,21 @@ body {
     /* 3. Ajuste de espaciado y contraste para tu nombre */
     padding: 60px 20px;
     color: #ffffff;                  /* Texto blanco */
+    text-align: center; /* Centrar el texto */
 }
 .titulo-sobremi {
     color: #00ff00; /* Verde brillante */
     text-shadow: 0 0 5px #00ff00, 0 0 10px #00ff00; /* Efecto de resplandor */
+    text-align: center; /* Centrar el texto */
 }
 
 .titulo-seccion {
     color: #00ff00; /* Verde brillante */
     text-shadow: 0 0 5px #00ff00, 0 0 10px #00ff00; /* Efecto de resplandor */
+    text-align: center; /* Centrar el texto */
 }
 .titulo-miestudios {
     color: #800080; /* morado */
     text-shadow: 0 0 5px #800080, 0 0 10px #800080 ; /* Efecto de resplandor */
+    text-align: center; /* Centrar el texto */
 }
